@@ -288,7 +288,7 @@ const Gallroid = () => {
     setLoading(true);
 
     try {
-      const res = await axios.get("http://localhost:5000/gallery", {
+      const res = await axios.get("/gallery", {
         params: {
           limit: 10,
           next_cursor: nextCursor || "",
