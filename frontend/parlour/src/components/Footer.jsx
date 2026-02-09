@@ -9,7 +9,7 @@ function Footer() {
     >
       {/* Navigation Links */}
       <div className="text-xl items-center flex flex-col lg:flex-row gap-10">
-        <a href="#hero" className="hover:opacity-70">
+        <a href="https://blushing-point.onrender.com/" className="hover:opacity-70">
           HOME
         </a>
         <a href="#about" className="hover:opacity-70">
