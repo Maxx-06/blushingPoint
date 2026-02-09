@@ -1,0 +1,21 @@
+{
+  "name": "p-2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/parlour && npm run build --prefix frontend/parlour",
+    "start": "node backend/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxx-06/blushingPoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxx-06/blushingPoint/issues"
+  },
+  "homepage": "https://github.com/Maxx-06/blushingPoint#readme",
+  "description": ""
+}
